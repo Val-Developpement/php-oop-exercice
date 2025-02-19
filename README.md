@@ -89,12 +89,12 @@ The title of your Pull Request must contain your name, you firstname and you cla
 
 | Feature                                 | Route                          |
 |-----------------------------------------|--------------------------------|
-| List of blogs                           | /                              | V
-| Login                                   | /login.php                     | V
-| Register                                | /register.php                  | V
-| Read a blog and the associated comments | /index.php?id=<blog-id>        | V
-| Post a new comment                      | /index.php?id=<blog-id>        | V
+| List of blogs                           | /                              |
+| Login                                   | /login.php                     |
+| Register                                | /register.php                  |
+| Read a blog and the associated comments | /index.php?id=<blog-id>        |
+| Post a new comment                      | /index.php?id=<blog-id>        |
 | List the blogs of a user                | /users.php?id=<user-id>        |
-| Update profile                          | /profile.php                   | V
-| Create a new blog                       | /blogs/new.php                 | V
-| Logout                                  | /logout.php                    | V
+| Update profile                          | /profile.php                   |
+| Create a new blog                       | /blogs/new.php                 |
+| Logout                                  | /logout.php                    |
