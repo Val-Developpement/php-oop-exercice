@@ -1,0 +1,42 @@
+[
+    {
+        "path": "/home",
+        "methods": ["GET"],
+        "controller": "HomeController"
+    },
+    {
+        "path": "/login",
+        "methods": ["GET", "POST"],
+        "controller": "LoginController"
+    },
+    {
+        "path": "/register",
+        "methods": ["GET", "POST"],
+        "controller": "RegisterController"
+    },
+    {
+        "path": "/logout",
+        "methods": ["GET","POST"],
+        "controller": "LogoutController"
+    },
+    {
+        "path": "/profile",
+        "methods": ["GET", "POST"],
+        "controller": "ProfileController"
+    },
+    {
+        "path": "/blogs/index",
+        "methods": ["GET", "POST"],
+        "controller": "BlogIndexController"
+    },
+    {
+        "path": "/blogs/new",
+        "methods": ["GET", "POST"],
+        "controller": "BlogNewController"
+    },
+    {
+        "path": "/users",
+        "methods": ["GET"],
+        "controller": "UsersController"
+    }
+]
