@@ -1,41 +1,41 @@
 [
     {
-        "path": "/home",
+        "path": "/api/home",
         "methods": ["GET"],
         "controller": "HomeController"
     },
     {
-        "path": "/login",
+        "path": "/api/login",
         "methods": ["GET", "POST"],
         "controller": "LoginController"
     },
     {
-        "path": "/register",
+        "path": "/api/register",
         "methods": ["GET", "POST"],
         "controller": "RegisterController"
     },
     {
-        "path": "/logout",
-        "methods": ["GET","POST"],
+        "path": "/api/logout",
+        "methods": ["POST"],
         "controller": "LogoutController"
     },
     {
-        "path": "/profile",
+        "path": "/api/profile",
         "methods": ["GET", "POST"],
         "controller": "ProfileController"
     },
     {
-        "path": "/blogs/index",
+        "path": "/api/blogs/index",
         "methods": ["GET", "POST"],
         "controller": "BlogIndexController"
     },
     {
-        "path": "/blogs/new",
+        "path": "/api/blogs/new",
         "methods": ["GET", "POST"],
         "controller": "BlogNewController"
     },
     {
-        "path": "/users",
+        "path": "/api/users",
         "methods": ["GET"],
         "controller": "UsersController"
     }
